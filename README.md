@@ -1,4 +1,4 @@
-# Excel Macro Extrator
+# Excel Macro Extractor
 
 Windows Command Line application to extract `.vba`-files from `.xlsm`-files.
 
