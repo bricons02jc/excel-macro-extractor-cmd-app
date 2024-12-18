@@ -9,7 +9,7 @@ Aplicación de cmd de Windows para extraer archivos `.vba` de archivos `.xlsm`.
 $ ExcelMacroExtrator.exe file targetdir [--copy-xlsm]
 
 # ejemplo
-$ ExcelMacroExtrator.exe "C:\Dev\Archivo.xslm" "C:\Dev\Archivo-Fuente" --copy-xlsm
+$ ExcelMacroExtrator.exe "C:\Dev\Archivo.xlsm" "C:\Dev\Archivo-Fuente" --copy-xlsm
 ~~~
 
 La opción `--copy-xlsm` también copia el archivo de Excel en el `targetpath`. 
