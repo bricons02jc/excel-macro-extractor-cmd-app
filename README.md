@@ -1,18 +1,22 @@
-# Excel Macro Extractor
+# Extractor de macros de Excel - *"Excel Macro Extractor"*
 
-Windows Command Line application to extract `.vba`-files from `.xlsm`-files.
+Aplicación de cmd de Windows para extraer archivos `.vba` de archivos `.xlsm`.
 
-## Usage:
+
+## Uso:
 
 ~~~ sh
 $ ExcelMacroExtrator.exe file targetdir [--copy-xlsm]
 
-# example
-$ ExcelMacroExtrator.exe "C:\Dev\File.xslm" "C:\Dev\File-Source" --copy-xlsm
+# ejemplo
+$ ExcelMacroExtrator.exe "C:\Dev\Archivo.xslm" "C:\Dev\Archivo-Fuente" --copy-xlsm
 ~~~
 
-The `--copy-xlsm`-option copies the Excel-file to the `targetpath` as well. 
+La opción `--copy-xlsm` también copia el archivo de Excel en el `targetpath`. 
 
-## Motivation
+## Motivación
+Con esta herramienta puedo extraer el código VBA a un `targetdir` (directorio-objetivo) y comparar versiones de ese directorio con `git`.
+#
 
-I develop a fair amount of Excel-VBA-Applications, and want to track the VBA-modules via `git`. The Excel-file itself is a binary-file, and therefore not really `diff`-able. With this tool I can extract the VBA-code to a `targetdir` and track that directory with `git`.
+>*"I develop a fair amount of Excel-VBA-Applications, and want to track the VBA-modules via `git`. The Excel-file itself is a binary-file, and therefore not really `diff`-able. With this tool I can extract the VBA-code to a `targetdir` and track that directory with `git`."*
+- Dominik Aumayr - [aumayr](https://github.com/aumayr "Perfil GitHub")
